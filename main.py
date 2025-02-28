@@ -83,10 +83,10 @@ async def send_album(media_group_id):
     keyboard = InlineKeyboardMarkup()
 
     
-    # Adiciona botões (customize os textos, emojis e URLs)
-    keyboard.add(InlineKeyboardButton("📂 Exemplo de Link 1 📂", url="https://mega.nz"))
-    keyboard.add(InlineKeyboardButton("✨ Exemplo de Link 2✨", url="https://mega.nz"))
-    keyboard.add(InlineKeyboardButton("Exemplo de Link 3 👊", url="https://example.com"))
+    # Adiciona botões (customize os textos, emojis e URLs) ainda nao sera usado
+    #keyboard.add(InlineKeyboardButton("📂 Exemplo de Link 1 📂", url="https://mega.nz"))
+    #keyboard.add(InlineKeyboardButton("✨ Exemplo de Link 2✨", url="https://mega.nz"))
+    #keyboard.add(InlineKeyboardButton("Exemplo de Link 3 👊", url="https://example.com"))
 
     if len(media[media_group_id]) == 1:
         # Itera sobre o álbum para identificar o tipo de mídia
